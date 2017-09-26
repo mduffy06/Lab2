@@ -1,0 +1,96 @@
+﻿
+
+header {
+    background-image: url("http://www.3m.com/wps/wcm/connect/ff3631fc-f70e-4e90-8642-e7990b22eaed/1200x340_Mesh_Header_Orange-LightOrange.png?MOD=AJPERES&CACHEID=ROOTWORKSPACE-ff3631fc-f70e-4e90-8642-e7990b22eaed-kKbC3kE");
+    background-repeat: repeat;
+    background-position: left top;
+    background-attachment: fixed;
+    padding: 15px;
+}
+
+.wrap{
+
+    
+    display: grid;
+
+    grid-template-columns: 750px 750px;
+    grid-auto-rows: minmax(200px, auto);
+    grid-column-gap: 1em;
+    grid-row-gap: 5em;
+
+}
+
+.IT {
+    grid-column: 1;
+}
+
+.Pennywise{
+    grid-column: 1;
+}
+
+.MovieTimes{
+
+    grid-column : 1;
+}
+
+.Fandango{
+
+    grid-column : 1;
+
+}
+p{
+    font-size: 30px;
+    color : orange;
+}
+
+h2{
+    color : darkred;
+    font-size: 45px;
+    text-align: center;
+}
+
+p.Date{
+    color:black;
+
+}
+
+.times {
+    font-size: 25px;
+    color: orange;
+    list-style-type: none;
+}
+
+div.nav {
+    float: left;
+    display: block;
+    color: orange;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+ul.navul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: lightslategrey;
+    height: 100%; 
+    bottom: 0;
+    right: 0;
+    position: fixed; 
+}
+
+li a {
+
+    display: block;
+    color: orange;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+body {
+    background-image: url("https://images.alphacoders.com/787/787294.png");
+    background-attachment: fixed;
+}
+
